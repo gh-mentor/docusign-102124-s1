@@ -1,20 +1,27 @@
-# This PowerShell script uses git to sync changes between a local and remote GitHub repository on branch 'main'.
+# This PowerShell 5.1 script uses git to synchronize changes between the local and remote GitHub repository on branch 'main'.
 # It assumes that the remote repository is already set up and that the local repository is already cloned.
 # If you encounter an execution policy error, you may need to change the execution policy to allow script execution.
 # You can do this by running the following command in PowerShell as an administrator:
 # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-#Steps: pull changes from remote repository, stage all changes, commit changes with message 'Updated', push changes to remote repository on branch 'main'.
+# Steps: 
+# - pull changes from remote repository
+# - stage all changes
+# - commit changes with message 'Update commit'
+# - push changes to remote repository on branch 'main'
+# - display the status of the repository
 
-
-# Pull changes from remote repository
+# pull changes from remote repository
 git pull origin main
 
-# Stage all changes
+# stage all changes
 git add .
 
-# Commit changes with a message 'Update'
-git commit -m "Update"
+# commit changes with message 'Update commit'
+git commit -m "Update commit"
 
-# Push changes to remote repository on branch 'main'
+# push changes to remote repository on branch 'main'
 git push origin main
+
+# display the status of the repository
+git status

@@ -11,3 +11,15 @@
 # - push changes to remote repository on branch 'main'
 # - display the status of the repository
 
+# Pull changes from remote repository
+git pull origin main
+
+# Stage all changes
+git add .
+
+# Commit changes with message 'Update commit'
+git commit -m "Update commit"
+
+# Push changes to remote repository on branch 'main'
+git push origin main
+

@@ -35,7 +35,7 @@ I manage a team of systems engineers. Our environment consists of Windows and Li
 
 ### Update PowerShell Scripts to Version 5
 ```
-I have several old PowerShell scripts that need to be updated version 5. All of the scripts are running without issues.
+I have several old PowerShell scripts that need to be updated version 5.1. All of the scripts are running without issues.
 1) Can you recommend the best strategy to accomplish this goal while minimizing the introduction of errors?
 2) Can you show an example of a script from a prior version and show the steps to incrementally perform the updates
 ```

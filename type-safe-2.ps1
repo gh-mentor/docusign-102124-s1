@@ -69,8 +69,11 @@ class Router : NetworkDevice {
 # Create instance of the concrete class 'Router1', address "localhost:8080", number of ports 8
 $router = [Router]::new("Router1", "localhost:8080", 8)
 
-# Use the instance of the concrete class 'Router' then disconnect
+# Use the instance of the concrete class 'Router1'
 $router.Connect()
 $router.ShowStatus()
 
+# disconnect the instance of the concrete class 'Router1'
 $router.Disconnect()
+
+
